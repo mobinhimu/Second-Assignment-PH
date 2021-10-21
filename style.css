@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    margin-bottom: 80px;
+    height: 700px;
+}
+/* top banner style start  */
+#top-banner{
+    background-image: url("personal-website/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.half-banner{
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+    width: 40%;
+}
+.half-banner h1{
+    font-weight: bold;
+    color: #EC4B75;
+    font-size: 30px;
+}
+.half-banner a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #EC4B75;
+    padding: 10px 30px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+.half-banner P{
+    font-weight: 400;
+    color: grey;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.desc{
+    margin-top: 200px;
+}
+.half-banner img{
+ width: 100%;
+}
+/* top banner style end  */
+/* second banner start */
+#biography{
+    background-image: url("personal-website/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+section#latest-work {
+    height: 400px;
+}
+/* second banner end */
+/* my latest work style start */
+#latest-work{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    background-image: url("personal-website/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.one{
+    width: 25%;
+   
+}
+.two{
+    width: 25%;
+    
+}
+.three{
+    width: 25%;
+  
+}
+/* my latest work style end */
+footer{
+    text-align: center;
+    height: 600px;
+    background-image: url("personal-website/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.client-say{
+    padding-top: 100px;
+    text-transform: capitalize;
+}
+.client-info p{
+    color: grey;
+    text-transform: capitalize;
+    margin-top: -15px;
+}
+.client-desc{
+    width: 380px;
+    margin: 40px auto;
+    font-weight: 600;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+button{
+    background-color: hotpink;
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+    padding: 10px 20px;
+}
+button a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+button p{
+    line-height: 5px;
+}
+button p:first-child{
+    font-size: 12px;
+    font-weight: 500;
+}
+#copyright{
+    padding-top: 100px;
+    font-weight: 500;
+    color: grey;
+}
